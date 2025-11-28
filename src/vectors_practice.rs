@@ -1,4 +1,3 @@
-
 pub fn vectors_practice() {
     let mut vec1: Vec<i32> = Vec::new();
     vec1.push(1);
@@ -44,5 +43,10 @@ pub fn vectors_practice() {
     // Iterate
     for num in vec_split_left.iter() {
         println!("Vec Left Num: {:?}", num);
+    }
+
+    let vec3: Vec<i32> = vec![0; 5];
+    for num in vec3.iter() {
+        println!("Vec3 Num: {:?}", num);
     }
 }
