@@ -16,7 +16,7 @@ pub fn arrays_practice() {
       [5, 6],
     ];
 
-    println!("matrix value at [1,1] ...: {:?}", matrix[1][1]);
+    println!("matrix value at [1,1] ...: {:?}.", matrix[1][1]);
 
     for  (r, row) in matrix.iter().enumerate() {
         for (c, col) in row.iter().enumerate() {
