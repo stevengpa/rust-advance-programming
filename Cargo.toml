@@ -4,3 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+# runtime dependencies go here
+
+[dev-dependencies]
+# Criterion is only needed for benches/tests
+criterion = "0.8"
+
+[[bench]]
+name = "run_benchmark_criterion"
+harness = false
